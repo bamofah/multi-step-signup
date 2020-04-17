@@ -92,7 +92,7 @@ const SignUpForm = props => {
                 classes={classes}
             >
                 <WizardWithMaterial.Page>
-                    <BasicInfo validationSchema={validationSchema} {...props} />
+                    <BasicInfo {...props} />
                 </WizardWithMaterial.Page>
                 <WizardWithMaterial.Page
                     validate={values => {
